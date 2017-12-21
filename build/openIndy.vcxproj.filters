@@ -1,0 +1,1531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{62d12095-7c44-41bd-b79a-38eb00fc639c}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{817e4367-7fff-4850-b4db-dcaf51de83e4}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ui\dialogs\aboutdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\activefeaturefunctionsmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\dialogs\actualpropertiesdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\availableelementstreeviewproxymodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\availablefunctionslistmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\availablefunctionslistproxymodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\bundlegeometriesmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\treeitems\bundlegeometryitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\treeitems\bundlestationitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\bundlestationsmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\bundlesystemsmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\bundletemplatesmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\dialogs\createfeaturedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\exchange\dataexchanger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\dialogs\featurefunctionsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\featuresorter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\config\featuretablecolumnconfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\delegates\featuretabledelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\featuretablemodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\featuretableproxymodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\config\featuretablesortingconfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\treeitems\featuretreeitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\featuretreeviewmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\featureupdater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\functionstatisticmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\functiontablemodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\functiontableproxymodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\treeitems\functiontreeitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\functionweightdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\functionweightproxymodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\functionweightstablemodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\dialogs\importnominaldialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\dialogs\loadingdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\config\measurementconfigmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\dialogs\measurementconfigurationdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\delegates\measurementconfigurationlistdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\measurementconfigurationmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\measurementconfigurationproxymodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\modelmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\dialogs\movesensordialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\selectionmodels\multiselectionmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\dialogs\nominalpropertiesdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\exchange\observationimporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\observationmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\observationproxymodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\config\observationtablecolumnconfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\delegates\observationtabledelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\oimetadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\network\oirequesthandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\network\oiwebsocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\network\oiwebsocketserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\network\oiwebsocketstreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\config\parameterdisplayconfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\plugincopier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\widgets\plugininfowidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\pluginloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\dialogs\pluginloaderdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\dialogs\pluginmanagerdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\treeitems\plugintreeitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\plugintreeviewmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\exchange\projectexchanger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\readingmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\readingproxymodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\config\readingtablecolumnconfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\delegates\readingtabledelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\widgets\scalarparameterwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\delegates\sensoraccuracydelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\sensoraccuracymodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\dialogs\sensorconfigurationdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\delegates\sensorconfigurationlistdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\config\sensorconfigurationmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\sensorconfigurationmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\sensorconfigurationproxymodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\delegates\sensorparametersdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\sensorparametersmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\sensortablemodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\sensortableproxymodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\dialogs\sensortaskinfodialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\dialogs\settingsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\sortlistbyname.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\dialogs\stationpropertiesdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\systemdbmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\actions\toolaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\trafocontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\dialogs\trafoparampropertiesdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controller\config\trafoparamtablecolumnconfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\delegates\trafoparamtabledelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\trafoparamtableproxymodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\usedelementsmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\dialogs\watchwindowdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_aboutdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_aboutdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_activefeaturefunctionsmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_activefeaturefunctionsmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_actualpropertiesdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_actualpropertiesdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_availableelementstreeviewproxymodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_availableelementstreeviewproxymodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_availablefunctionslistmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_availablefunctionslistmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_availablefunctionslistproxymodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_availablefunctionslistproxymodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_bundlegeometriesmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_bundlegeometriesmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_bundlestationsmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_bundlestationsmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_bundlesystemsmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_bundlesystemsmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_bundletemplatesmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_bundletemplatesmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_console.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_console.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_controller.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_controller.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_createfeaturedialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_createfeaturedialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_dataexchanger.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_dataexchanger.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_featurefunctionsdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_featurefunctionsdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_featuretablemodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_featuretablemodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_featuretableproxymodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_featuretableproxymodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_featuretreeitem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_featuretreeitem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_featuretreeviewmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_featuretreeviewmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_featureupdater.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_featureupdater.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_functiontablemodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_functiontablemodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_functiontableproxymodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_functiontableproxymodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_functiontreeitem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_functiontreeitem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_functionweightproxymodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_functionweightproxymodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_functionweightstablemodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_functionweightstablemodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_importnominaldialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_importnominaldialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_loadingdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_loadingdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_mainwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_mainwindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_measurementconfigmanager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_measurementconfigmanager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_measurementconfigurationdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_measurementconfigurationdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_measurementconfigurationmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_measurementconfigurationmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_measurementconfigurationproxymodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_measurementconfigurationproxymodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_modelmanager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_modelmanager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_movesensordialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_movesensordialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_multiselectionmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_multiselectionmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_nominalpropertiesdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_nominalpropertiesdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_observationimporter.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_observationimporter.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_observationmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_observationmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_observationproxymodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_observationproxymodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_oirequesthandler.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_oirequesthandler.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_oiwebsocket.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_oiwebsocket.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_oiwebsocketserver.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_oiwebsocketserver.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_oiwebsocketstreamer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_oiwebsocketstreamer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_plugincopier.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_plugincopier.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_plugininfowidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_plugininfowidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_pluginloader.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_pluginloader.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_pluginloaderdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_pluginloaderdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_pluginmanagerdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_pluginmanagerdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_plugintreeitem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_plugintreeitem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_plugintreeviewmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_plugintreeviewmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_readingmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_readingmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_readingproxymodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_readingproxymodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_scalarparameterwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_scalarparameterwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_sensoraccuracymodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_sensoraccuracymodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_sensorconfigurationdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_sensorconfigurationdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_sensorconfigurationmanager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_sensorconfigurationmanager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_sensorconfigurationmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_sensorconfigurationmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_sensorconfigurationproxymodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_sensorconfigurationproxymodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_sensorparametersmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_sensorparametersmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_sensortablemodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_sensortablemodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_sensortableproxymodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_sensortableproxymodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_sensortaskinfodialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_sensortaskinfodialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_settingsdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_settingsdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_stationpropertiesdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_stationpropertiesdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_toolaction.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_toolaction.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_trafocontroller.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_trafocontroller.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_trafoparampropertiesdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_trafoparampropertiesdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_trafoparamtableproxymodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_trafoparamtableproxymodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_usedelementsmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_usedelementsmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Debug\.moc\moc_watchwindowdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\Release\.moc\moc_watchwindowdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_res.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\ui\dialogs\aboutdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\models\activefeaturefunctionsmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\actualpropertiesdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\models\availableelementstreeviewproxymodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\models\availablefunctionslistmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\models\availablefunctionslistproxymodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\models\bundlegeometriesmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\models\treeitems\bundlegeometryitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\models\treeitems\bundlestationitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\models\bundlestationsmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\models\bundlesystemsmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\models\bundletemplatesmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\lib\OpenIndy-Core\lib\OpenIndy-Math\include\chooselalib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\controller\console.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\controller\controller.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\createfeaturedialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\controller\exchange\dataexchanger.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\controller\param\exchangeParams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\ui\dialogs\featurefunctionsdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\controller\featuresorter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\controller\config\featuretablecolumnconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ui\delegates\featuretabledelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\models\featuretablemodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\models\featuretableproxymodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\controller\config\featuretablesortingconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\models\treeitems\featuretreeitem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\models\featuretreeviewmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\controller\featureupdater.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\models\functionstatisticmodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\models\functiontablemodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\models\functiontableproxymodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\models\treeitems\functiontreeitem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\models\functionweightdelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\models\functionweightproxymodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\models\functionweightstablemodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\lib\OpenIndy-Core\lib\OpenIndy-Math\include\global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\ui\dialogs\importnominaldialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\lib\OpenIndy-Core\lib\OpenIndy-Math\include\linearalgebra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\ui\dialogs\loadingdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\controller\config\measurementconfigmanager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\measurementconfigurationdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\ui\delegates\measurementconfigurationlistdelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\models\measurementconfigurationmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\models\measurementconfigurationproxymodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\controller\modelmanager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\movesensordialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\selectionmodels\multiselectionmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\nominalpropertiesdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\controller\exchange\observationimporter.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\models\observationmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\models\observationproxymodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\controller\config\observationtablecolumnconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ui\delegates\observationtabledelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\OpenIndy-Core\lib\OpenIndy-Math\include\oimat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\controller\network\oirequesthandler.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\lib\OpenIndy-Core\lib\OpenIndy-Math\include\oivec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\controller\network\oiwebsocket.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\controller\network\oiwebsocketserver.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\controller\network\oiwebsocketstreamer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\controller\config\parameterdisplayconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\controller\plugincopier.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\widgets\plugininfowidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\controller\pluginloader.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\pluginloaderdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\pluginmanagerdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\models\treeitems\plugintreeitem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\models\plugintreeviewmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\controller\exchange\projectexchanger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\models\readingmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\models\readingproxymodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\controller\config\readingtablecolumnconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ui\delegates\readingtabledelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\ui\widgets\scalarparameterwidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\ui\delegates\sensoraccuracydelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\models\sensoraccuracymodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\sensorconfigurationdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\ui\delegates\sensorconfigurationlistdelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\controller\config\sensorconfigurationmanager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\models\sensorconfigurationmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\models\sensorconfigurationproxymodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\ui\delegates\sensorparametersdelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\models\sensorparametersmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\models\sensortablemodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\models\sensortableproxymodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\sensortaskinfodialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\settingsdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\controller\sortlistbyname.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\ui\dialogs\stationpropertiesdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\controller\systemdbmanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\ui\actions\toolaction.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\controller\trafocontroller.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\trafoparampropertiesdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\controller\config\trafoparamtablecolumnconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ui\delegates\trafoparamtabledelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\models\trafoparamtableproxymodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\models\usedelementsmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\watchwindowdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\ui\dialogs\aboutdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\actualpropertiesdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\createfeaturedialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\featurefunctionsdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\importnominaldialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\loadingdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\measurementconfigurationdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\movesensordialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\nominalpropertiesdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\pluginloaderdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\pluginmanagerdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\sensorconfigurationdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\sensortaskinfodialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\settingsdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\stationpropertiesdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\trafoparampropertiesdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\dialogs\watchwindowdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\res\icons\1downarrow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\1leftarrow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\1rightarrow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\1uparrow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\feature\Circle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Cloud.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\feature\Cone.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Config.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\feature\Coordinatesystem.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\feature\Cylinder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\feature\Ellipse.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\feature\Ellipsoid.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Entities.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Hole.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\feature\Hyperboloid.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\feature\Line.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\standard\Measurement">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\feature\Nurbs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\feature\Paraboloid.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\feature\Plane.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\feature\Point">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\feature\Point.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\feature\Scalar">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\standard\Sensor">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Set.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\feature\Slotted">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\feature\Sphere.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\feature\Station.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Surface.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\feature\Torus.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\feature\TrafoParam.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\standard\Watch">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Window.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\arrow_left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\arrow_right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\button_ok.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\cancel.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\circle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\circle_2a09f3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\circle_5e8acf.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\cone.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\cone_2a09f3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\cone_5e8acf.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\console.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="control">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\coordinateSystem.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\coordinateSystem_2a09f3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\cylinder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\cylinder_2a09f3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\cylinder_5e8acf.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\edit_add.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\edit_remove.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\ellipse_2a09f3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\ellipse_5e8acf.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\exec.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\featureToolBar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\fileexport.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\filesave.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\folder_open.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\function.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\standard\function.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\standard\help.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\hyperboloid_2a09f3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\hyperboloid_5e8acf.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\standard\import_icon.PNG">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\info.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\line.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\line_2a09f3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\line_5e8acf.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\loadPlugin.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\sounds\measure_fail.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\sounds\measure_success.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\measurementconfig.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\nurbs_2a09f3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\nurbs_5e8acf.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\standard\open.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\openIndy.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\openIndy_bg.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pad.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\paraboloid_2a09f3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\paraboloid_5e8acf.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\plane.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\plane_2a09f3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\plane_5e8acf.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\pluginmanager.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\point.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\pointCloud_2a09f3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\pointCloud_5e8acf.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\point_2a09f3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\point_5e8acf.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\res\res.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\res\icons\toolbars\standard\save.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\scalarEntities_2a09f3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\scalarEntities_5e8acf.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\standard\sensor">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\sensorcontrol.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\setInstrument.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\settings.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\simulation.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\sphere.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\sphere_2a09f3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\sphere_5e8acf.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\station.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\station_2a09f3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\streamingLogo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\trafoParam.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\trafoParam_2a09f3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\watchwindow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\icons\toolbars\standard\sensor" />
+    <None Include="..\res\icons\toolbars\standard\sensor" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\openindy\src\OpenIndy-0.8.0\res\openIndy.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_aboutdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_actualpropertiesdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_createfeaturedialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_featurefunctionsdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_importnominaldialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_loadingdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_mainwindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_measurementconfigurationdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_movesensordialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_nominalpropertiesdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_pluginloaderdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_pluginmanagerdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_sensorconfigurationdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_sensortaskinfodialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_settingsdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_stationpropertiesdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_trafoparampropertiesdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_watchwindowdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\res\icons\toolbars\feature\Nurbs Surface.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\res\icons\toolbars\feature\Point Cloud.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\res\icons\toolbars\feature\Scalar Entities.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\res\icons\toolbars\feature\Slotted Hole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\res\icons\toolbars\standard\sensor control pad.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\res\icons\toolbars\standard\Measurement Config.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\res\icons\toolbars\standard\Sensor Set.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\res\icons\toolbars\standard\Watch Window.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

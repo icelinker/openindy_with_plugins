@@ -1,0 +1,55 @@
+<oiProjectData idCount="7" date="2017-12-04T20:51:59" version="" name="oiProject.xml">
+    <activeCoordinateSystem ref="6"/>
+    <activeStation ref="5"/>
+    <stations>
+        <station id="5" group="" activeStation="1" solved="0" comment="" activeFeature="0" name="STATION01">
+            <activeSensor plugin="" name=""/>
+            <position ref="3"/>
+            <coordinateSystem ref="4"/>
+        </station>
+    </stations>
+    <coordinateSystems>
+        <coordinateSystem id="6" group="" solved="0" comment="" activeFeature="0" activeSystem="1" isBundleSystem="0" name="PART">
+            <coordinates z="0" x="0" y="0"/>
+            <xAxis i="0" k="0" j="0"/>
+            <yAxis i="0" k="0" j="0"/>
+            <zAxis i="0" k="0" j="0"/>
+            <expansionOrigin z="0" x="0" y="0"/>
+            <bundleTemplate maxIterations="" levelStation="" name="">
+                <parameters/>
+                <plugin/>
+            </bundleTemplate>
+        </coordinateSystem>
+        <coordinateSystem id="4" group="" solved="0" comment="" activeFeature="0" activeSystem="0" isBundleSystem="0" name="STATION01">
+            <coordinates z="0" x="0" y="0"/>
+            <xAxis i="0" k="0" j="0"/>
+            <yAxis i="0" k="0" j="0"/>
+            <zAxis i="0" k="0" j="0"/>
+            <expansionOrigin z="0" x="0" y="0"/>
+            <bundleTemplate maxIterations="" levelStation="" name="">
+                <parameters/>
+                <plugin/>
+            </bundleTemplate>
+        </coordinateSystem>
+    </coordinateSystems>
+    <transformationParameters/>
+    <geometries>
+        <geometry common="0" id="3" group="" solved="0" comment="" nominal="0" activeFeature="0" type="point" name="">
+            <coordinates z="0" x="0" y="0"/>
+            <standardDeviation value="0"/>
+            <nominalGeometries/>
+            <measurementConfig name=""/>
+        </geometry>
+    </geometries>
+    <observations/>
+    <configs>
+        <measurementConfigs>
+            <measurementConfig iterations="1" isSaved="1" timeDependent="0" timeInterval="0" count="1000" distanceInterval="0" typeOfReading="2" distanceDependent="0" measureTwoSides="0" name="FastPoint"/>
+            <measurementConfig iterations="1" isSaved="1" timeDependent="0" timeInterval="0" count="500" distanceInterval="0" typeOfReading="5" distanceDependent="0" measureTwoSides="0" name="level"/>
+            <measurementConfig iterations="1" isSaved="1" timeDependent="0" timeInterval="0" count="1000" distanceInterval="0" typeOfReading="1" distanceDependent="0" measureTwoSides="0" name="API-fast"/>
+            <measurementConfig iterations="1" isSaved="1" timeDependent="0" timeInterval="0" count="2000" distanceInterval="0" typeOfReading="2" distanceDependent="0" measureTwoSides="0" name="StdPoint"/>
+            <measurementConfig iterations="1400" isSaved="1" timeDependent="0" timeInterval="0" count="1" distanceInterval="0.001" typeOfReading="2" distanceDependent="1" measureTwoSides="0" name="StdScan"/>
+            <measurementConfig iterations="1" isSaved="1" timeDependent="0" timeInterval="0" count="2000" distanceInterval="0" typeOfReading="2" distanceDependent="0" measureTwoSides="1" name="StdTwoSide"/>
+        </measurementConfigs>
+    </configs>
+</oiProjectData>

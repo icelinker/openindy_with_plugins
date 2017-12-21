@@ -1,0 +1,20 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openIndyMath", "D:/openindy/src/OpenIndy-DefaultPlugin/lib/OpenIndy-Core/lib/OpenIndy-Math/build\openIndyMath.vcxproj", "{D14355D8-0C18-3F02-85E1-DDED87487B3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D14355D8-0C18-3F02-85E1-DDED87487B3D}.Debug|x64.ActiveCfg = Debug|x64
+		{D14355D8-0C18-3F02-85E1-DDED87487B3D}.Debug|x64.Build.0 = Debug|x64
+		{D14355D8-0C18-3F02-85E1-DDED87487B3D}.Release|x64.ActiveCfg = Release|x64
+		{D14355D8-0C18-3F02-85E1-DDED87487B3D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

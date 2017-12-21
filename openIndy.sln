@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openIndyMath", "lib\OpenIndy-Core\lib\OpenIndy-Math\build\openIndyMath.vcxproj", "{D14355D8-0C18-3F02-85E1-DDED87487B3D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openIndyCore", "lib\OpenIndy-Core\build\openIndyCore.vcxproj", "{B4DECBD6-3CA3-3E38-9FEB-E6D4F604950B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openIndy", "build\openIndy.vcxproj", "{009C44CB-AC5E-3611-95B2-F73C7EC7120C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "p_defaultPlugin", "build\p_defaultPlugin.vcxproj", "{0B91F643-2F72-3400-B7A0-E60BDEF66418}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D14355D8-0C18-3F02-85E1-DDED87487B3D}.Debug|x64.ActiveCfg = Debug|x64
+		{D14355D8-0C18-3F02-85E1-DDED87487B3D}.Debug|x64.Build.0 = Debug|x64
+		{D14355D8-0C18-3F02-85E1-DDED87487B3D}.Release|x64.ActiveCfg = Release|x64
+		{D14355D8-0C18-3F02-85E1-DDED87487B3D}.Release|x64.Build.0 = Release|x64
+		{B4DECBD6-3CA3-3E38-9FEB-E6D4F604950B}.Debug|x64.ActiveCfg = Debug|x64
+		{B4DECBD6-3CA3-3E38-9FEB-E6D4F604950B}.Debug|x64.Build.0 = Debug|x64
+		{B4DECBD6-3CA3-3E38-9FEB-E6D4F604950B}.Release|x64.ActiveCfg = Release|x64
+		{B4DECBD6-3CA3-3E38-9FEB-E6D4F604950B}.Release|x64.Build.0 = Release|x64
+		{009C44CB-AC5E-3611-95B2-F73C7EC7120C}.Debug|x64.ActiveCfg = Debug|x64
+		{009C44CB-AC5E-3611-95B2-F73C7EC7120C}.Debug|x64.Build.0 = Debug|x64
+		{009C44CB-AC5E-3611-95B2-F73C7EC7120C}.Release|x64.ActiveCfg = Release|x64
+		{009C44CB-AC5E-3611-95B2-F73C7EC7120C}.Release|x64.Build.0 = Release|x64
+		{0B91F643-2F72-3400-B7A0-E60BDEF66418}.Debug|x64.ActiveCfg = Debug|x64
+		{0B91F643-2F72-3400-B7A0-E60BDEF66418}.Debug|x64.Build.0 = Debug|x64
+		{0B91F643-2F72-3400-B7A0-E60BDEF66418}.Release|x64.ActiveCfg = Release|x64
+		{0B91F643-2F72-3400-B7A0-E60BDEF66418}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = 5.7.0_x64
+	EndGlobalSection
+EndGlobal

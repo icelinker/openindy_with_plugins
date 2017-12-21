@@ -1,0 +1,107 @@
+<oiProjectData idCount="13" date="2017-12-09T20:38:29" version="" name="oiProject.xml1.xml">
+    <activeCoordinateSystem ref="6"/>
+    <activeStation ref="5"/>
+    <stations>
+        <station id="5" group="" solved="0" comment="" activeStation="1" activeFeature="0" name="STATION01">
+            <activeSensor plugin="OpenIndy Default Plugin" name="PseudoTracker"/>
+            <position ref="3"/>
+            <coordinateSystem ref="4"/>
+        </station>
+    </stations>
+    <coordinateSystems>
+        <coordinateSystem id="6" group="" solved="0" comment="" activeFeature="0" activeSystem="1" isBundleSystem="0" name="PART">
+            <coordinates y="0" z="0" x="0"/>
+            <xAxis j="0" i="0" k="0"/>
+            <yAxis j="0" i="0" k="0"/>
+            <zAxis j="0" i="0" k="0"/>
+            <expansionOrigin y="0" z="0" x="0"/>
+            <bundleTemplate levelStation="" maxIterations="" name="">
+                <parameters/>
+                <plugin/>
+            </bundleTemplate>
+        </coordinateSystem>
+        <coordinateSystem id="4" group="" solved="0" comment="" activeFeature="0" activeSystem="0" isBundleSystem="0" name="STATION01">
+            <coordinates y="0" z="0" x="0"/>
+            <xAxis j="0" i="0" k="0"/>
+            <yAxis j="0" i="0" k="0"/>
+            <zAxis j="0" i="0" k="0"/>
+            <observations>
+                <observation ref="9"/>
+                <observation ref="11"/>
+            </observations>
+            <expansionOrigin y="0" z="0" x="0"/>
+            <bundleTemplate levelStation="" maxIterations="" name="">
+                <parameters/>
+                <plugin/>
+            </bundleTemplate>
+        </coordinateSystem>
+    </coordinateSystems>
+    <transformationParameters/>
+    <geometries>
+        <geometry id="7" group="Group01" solved="0" common="0" type="point" nominal="0" comment="" activeFeature="1" name="aaa">
+            <functions>
+                <function type="de.openIndy.plugin.function.fitFunction.v140" executionIndex="0" plugin="OpenIndy Default Plugin" name="BestFitPoint">
+                    <inputElements>
+                        <element shouldBeUsed="1" type="25" index="0" isUsed="0" ref="9">
+                            <ignoredDestinationParams/>
+                        </element>
+                        <element shouldBeUsed="1" type="25" index="0" isUsed="0" ref="11">
+                            <ignoredDestinationParams/>
+                        </element>
+                    </inputElements>
+                    <integerParameters/>
+                    <doubleParameters/>
+                    <stringParameters/>
+                </function>
+            </functions>
+            <coordinates y="0" z="0" x="0"/>
+            <standardDeviation value="0"/>
+            <observations>
+                <observation ref="9"/>
+                <observation ref="11"/>
+            </observations>
+            <nominalGeometries/>
+            <measurementConfig name="FastPoint"/>
+        </geometry>
+        <geometry id="3" group="" solved="0" common="0" type="point" nominal="0" comment="" activeFeature="0" name="">
+            <coordinates y="0" z="0" x="0"/>
+            <standardDeviation value="0"/>
+            <nominalGeometries/>
+            <measurementConfig name=""/>
+        </geometry>
+    </geometries>
+    <observations>
+        <observation id="9" j="0" isSolved="0" i="0" sigmaX="0" sigmaY="0" sigmaI="0" isValid="1" y="0" z="0" sigmaZ="0" sigmaJ="0" sigmaK="0" x="0" k="0">
+            <station ref="5"/>
+            <reading id="10" time="2017-12-09T20:36:14" type="polar">
+                <measurements>
+                    <measurement type="azimuth" sigma="1.57e-006" value="-0.5897583594710733"/>
+                    <measurement type="zenith" sigma="1.57e-006" value="0.09426303453268199"/>
+                    <measurement type="distance" sigma="2.5e-005" value="7.603576590297521e-007"/>
+                </measurements>
+            </reading>
+            <measuredTargetGeometry ref="7"/>
+        </observation>
+        <observation id="11" j="0" isSolved="0" i="0" sigmaX="0" sigmaY="0" sigmaI="0" isValid="1" y="0" z="0" sigmaZ="0" sigmaJ="0" sigmaK="0" x="0" k="0">
+            <station ref="5"/>
+            <reading id="12" time="2017-12-09T20:37:06" type="polar">
+                <measurements>
+                    <measurement type="azimuth" sigma="1.57e-006" value="2.261062717335293"/>
+                    <measurement type="zenith" sigma="1.57e-006" value="0.1913013311254505"/>
+                    <measurement type="distance" sigma="2.5e-005" value="1.111436060412691e-006"/>
+                </measurements>
+            </reading>
+            <measuredTargetGeometry ref="7"/>
+        </observation>
+    </observations>
+    <configs>
+        <measurementConfigs>
+            <measurementConfig measureTwoSides="0" distanceInterval="0" iterations="1" count="1000" distanceDependent="0" timeInterval="0" timeDependent="0" isSaved="1" typeOfReading="2" name="FastPoint"/>
+            <measurementConfig measureTwoSides="0" distanceInterval="0" iterations="1" count="500" distanceDependent="0" timeInterval="0" timeDependent="0" isSaved="1" typeOfReading="5" name="level"/>
+            <measurementConfig measureTwoSides="0" distanceInterval="0" iterations="1" count="1000" distanceDependent="0" timeInterval="0" timeDependent="0" isSaved="1" typeOfReading="1" name="API-fast"/>
+            <measurementConfig measureTwoSides="0" distanceInterval="0" iterations="1" count="2000" distanceDependent="0" timeInterval="0" timeDependent="0" isSaved="1" typeOfReading="2" name="StdPoint"/>
+            <measurementConfig measureTwoSides="0" distanceInterval="0.001" iterations="1400" count="1" distanceDependent="1" timeInterval="0" timeDependent="0" isSaved="1" typeOfReading="2" name="StdScan"/>
+            <measurementConfig measureTwoSides="1" distanceInterval="0" iterations="1" count="2000" distanceDependent="0" timeInterval="0" timeDependent="0" isSaved="1" typeOfReading="2" name="StdTwoSide"/>
+        </measurementConfigs>
+    </configs>
+</oiProjectData>

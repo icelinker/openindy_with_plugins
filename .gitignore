@@ -1,0 +1,35 @@
+# C++ objects and libs
+
+*.slo
+*.lo
+*.o
+*.a
+*.la
+*.lai
+*.so
+*.dll
+*.dylib
+
+*.bak
+*.pdb
+
+# directories
+bin/
+
+# Qt-es
+
+*.pro.user
+*.pro.user.*
+moc_*.cpp
+qrc_*.cpp
+Makefile
+*-build-*
+*.Debug
+*.Release
+*.opensdf
+*.sdf
+build/x64/Release/p_defaultPlugin.tlog/CL.read.1.tlog
+build/x64/Release/
+build/x64/Debug/
+lib/OpenIndy-Core/build/
+lib/OpenIndy-Core/lib/OpenIndy-Math/build/
